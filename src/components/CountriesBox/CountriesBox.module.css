@@ -1,0 +1,25 @@
+.box {
+  max-height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* width */
+.box::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.box::-webkit-scrollbar-track {
+  background: rgba(219, 192, 252, 0.34);
+}
+
+/* Handle */
+.box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
