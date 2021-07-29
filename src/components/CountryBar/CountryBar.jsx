@@ -1,7 +1,7 @@
-import React from 'react';
+import React,{Component} from 'react';
 import './CountryBar.css';
 
-export default class CountryBar extends React.Component {
+export default class CountryBar extends Component {
   render() {
     return (
       <div className="country-bar">

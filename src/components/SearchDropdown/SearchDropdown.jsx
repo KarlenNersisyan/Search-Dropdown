@@ -1,9 +1,9 @@
-import React from 'react';
+import React,{Component} from 'react';
 import requestCountry from '../../helpers/requestCountry/requestCountry';
 import CountriesBox from '../CountriesBox/CountriesBox';
 import './SearchDropdown.css';
 
-export default class SearchDropdown extends React.Component {
+export default class SearchDropdown extends Component {
   constructor(props) {
     super(props);
     this.state = {

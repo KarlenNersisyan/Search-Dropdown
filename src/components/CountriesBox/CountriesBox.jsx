@@ -1,8 +1,8 @@
-import React from 'react';
+import React,{Component} from 'react';
 import CountryBar from '../CountryBar/CountryBar';
 import styles from './CountriesBox.module.css';
 
-export default class CountriesBox extends React.Component {
+export default class CountriesBox extends Component {
   render() {
     if (this.props.isError) {
       return (
