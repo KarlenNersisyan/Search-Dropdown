@@ -1,4 +1,4 @@
-import React,{Component} from 'react';
+import React, { Component } from 'react';
 import requestCountry from '../../helpers/requestCountry/requestCountry';
 import CountriesBox from '../CountriesBox/CountriesBox';
 import './SearchDropdown.css';
@@ -45,6 +45,9 @@ export default class SearchDropdown extends Component {
   render() {
     return (
       <div className="box">
+        <div className='titleName'>
+          <h1> --- Find the country you want ... ---</h1>
+        </div>
         <input
           onChange={(e) => {
             if (e.target.value) {

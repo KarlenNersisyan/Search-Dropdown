@@ -1,7 +1,6 @@
 .box {
-  width: 40%;
-  margin-top: 50px;
-  padding: 10px;
+  width: 70%;
+  margin: 100px 15%;
   border: 1px solid #ccc;
   border-radius: 5px;
   box-shadow: 12px 19px 17px 0 #c3c1c1;
@@ -20,4 +19,8 @@
 
 .search-input:focus {
   border: 1px solid #6d59c2;
+}
+
+.titleName{
+   text-align: center;
 }
