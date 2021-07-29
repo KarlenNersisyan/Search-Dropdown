@@ -1,7 +1,12 @@
+import SearchDropdown from './components/SearchDropdown/SearchDropdown';
 import './App.css';
 
-function App() {
-  return <div className="App"></div>;
+export default function App() {
+    return (
+        <div className="App">
+            <SearchDropdown />
+        </div>
+    );
 }
 
-export default App;
+
