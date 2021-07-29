@@ -1,0 +1,23 @@
+.box {
+  width: 40%;
+  margin-top: 50px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 12px 19px 17px 0 #c3c1c1;
+  background-color: #fff;
+}
+
+.search-input {
+  border: 1px solid transparent;
+  border-bottom: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  font-size: 18px;
+  padding: 4px 12px;
+}
+
+.search-input:focus {
+  border: 1px solid #6d59c2;
+}
